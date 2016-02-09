@@ -83,12 +83,7 @@
 <!-- Inner Page Start-->
 <section class="gallery-img clearfix">
   <div class="custom-container">
-    <ul class="gallery">
-      <li> <a href="img/ohoopee1.jpg" data-caption="This is Venice. This is Venice. This is Venice. This is Venice. This is Venice"> <img src="img/ohoopee1.jpg" alt="Image"> </a> </li>
-      <li> <a href="img/ohoopee2.jpg" data-caption="A photo from London"> <img src="img/ohoopee2.jpg" alt="Image"> </a> </li>
-      <li> <a href="img/ohoopee1.jpg" data-caption="This one's from Brussels"> <img src="img/ohoopee1.jpg" alt="Image"> </a> </li>
-      <li> <a href="img/ohoopee2.jpg" data-caption="Another London snap"> <img src="img/ohoopee2.jpg" alt="Image"> </a> </li>
-    </ul>
+    <div class="popup-gallery"> <a class="group4"  href="img/ohoopee1.jpg" title="Me and my grandfather on the Ohoopee."><img src="img/ohoopee1.jpg" alt=""></a> <a class="group4"  href="img/ohoopee2.jpg" title="On the Ohoopee as a child"><img src="img/ohoopee2.jpg" alt=""></a> <a class="group4"  href="img/ohoopee3.jpg" title="On the Ohoopee as an adult"><img src="img/ohoopee3.jpg" alt=""></a> <a class="group4"  href="img/ohoopee2.jpg" title="On the Ohoopee as a child"><img src="img/ohoopee1.jpg" alt=""></a> </div>
   </div>
 </section>
 <!--Inner Page  End-->
@@ -292,23 +287,9 @@
                 <textarea id="comment" name="comment" class="form-control" cols="45" rows="8" placeholder="Your comment..."></textarea>
               </div>
               <div class="form-group">
-                <div class="rate"> <b style="width: 50%"></b>
-                  <!--//Replace with the current rating, or use 0.-->
-                  <a href="#">Rate 1/5</a> <a href="#">Rate 2/5</a> <a href="#">Rate 3/5</a> <a href="#">Rate 4/5</a> <a href="#">Rate 5/5</a>
-                  <!--<table>
-                    <tr>
-                      <td><input type="checkbox" name="checkboxG4" id="checkboxG4" class="css-checkbox" />
-                        <label for="checkboxG4" class="css-label radGroup1"></label></td>
-                      <td><input type="checkbox" name="checkboxG5" id="checkboxG5" class="css-checkbox" />
-                        <label for="checkboxG5" class="css-label radGroup1"></label></td>
-                      <td><input type="checkbox" name="checkboxG6" id="checkboxG6" class="css-checkbox" />
-                        <label for="checkboxG6" class="css-label radGroup1"></label></td>
-                      <td><input type="checkbox" name="checkboxG7" id="checkboxG7" class="css-checkbox" />
-                        <label for="checkboxG7" class="css-label radGroup1"></label></td>
-                      <td><input type="checkbox" name="checkboxG8" id="checkboxG8" class="css-checkbox" />
-                        <label for="checkboxG8" class="css-label radGroup1"></label></td>
-                    </tr>
-                  </table>-->
+                <div class="rate">
+                  <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+                  <div class="clearfix"></div>
                 </div>
               </div>
               <div class="form-group">
