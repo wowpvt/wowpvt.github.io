@@ -329,6 +329,9 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 .fa-italic:before {
 	content:"\f033"
 }
+.fa-ship:before {
+  content: "\f21a";
+}
 .fa-text-height:before {
 	content:"\f034"
 }
