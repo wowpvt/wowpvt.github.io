@@ -1,0 +1,1286 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Search Portal</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="js/scrolltoid.js"></script>
+    <script src="js/selectize.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/jqyery-parallax.js"></script>
+   
+    </head>
+
+    <body>
+<header> 
+      <!--social-bar-->
+      
+      <div class="menu_bar affix-top" data-spy="affix" data-offset-top="1" >
+    <div class="container clearfix">
+          <div class="row">
+        <nav class="navbar navbar-default" role="navigation" >
+              <div class="col-md-8 col-xs-12">
+            <div class="navbar-header" >
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+            <div class="collapse navbar-collapse "  id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav" id="main-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="add-business.html">Add Business</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#contact" rel="m_PageScroll2id">Contacts</a></li>
+              </ul>
+                </div>
+          </div>
+              <div class="col-md-4 col-xs-12">
+            <div class="search-bar">
+                  <ul>
+                <!-- Start modal sign in -->
+                <li><a href="#"  data-toggle="modal" data-target="#myModal1"><i class="fa fa-user"></i>&nbsp;Login</a></li>
+                <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                    <div class="modal-content">
+                          <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Login Form</h4>
+                      </div>
+                          <div class="modal-body">
+                        <form role="form">
+                              <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                          </div>
+                              <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>
+                              <button type="submit" class="btn btn-send">Submit</button>
+                            </form>
+                      </div>
+                          <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                        </div>
+                  </div>
+                    </div>
+                
+                <!-- close modal sign in--> 
+                
+                <!-- Start modal sign up-->
+                <li><a href="#"  data-toggle="modal" data-target="#myModal"><i class="fa fa-arrow-up"></i>&nbsp;Sign Up</a></li>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                    <div class="modal-content">
+                          <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Sign up Form</h4>
+                      </div>
+                          <div class="modal-body">
+                        <div class="signup_top">
+                              <form>
+                            <input class="form-control-firstname" type="text" placeholder="First Name">
+                            <input class="form-control-lastname" type="text" placeholder="Last Name">
+                          </form>
+                            </div>
+                        <input type="email" class="form-control-email" id="exampleInputEmail1" placeholder="Enter email">
+                        <input type="password" class="form-control-password" id="exampleInputPassword1" placeholder="Password">
+                        <button type="submit" class="btn-signup">Submit</button>
+                      </div>
+                          <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                        </div>
+                  </div>
+                    </div>
+                
+                <!-- close modal sign up -->
+                
+              </ul>
+                  </li>
+                  </ul>
+                </div>
+          </div>
+            </nav>
+      </div>
+        </div>
+  </div>
+    </header>
+<section>
+      <div class="container-fluid clearfix">
+    <div class="row">
+          <div class="slider">
+        <div id="slider1" class="flexslider">
+              <ul class="slides">
+            <li><img src="img/shopping.jpg">
+                  <div class="col-lg-12">
+                <div class="slider-title">
+                      <h2></h2>
+                    </div>
+                <div class="slider-subtitle">
+                      <h2></h2>
+                    </div>
+              </div>
+                </li>
+            <li><img src="img/restaurant.jpg"> </li>
+            <li><img src="img/spa.jpg"> </li>
+          </ul>
+            </div>
+        <div class="head-wrap">
+              <div class="container">
+            <div class="row">
+                  <div class="col-md-3 col-sm-3 col-xs-3">
+                <div class="logo" data-animate-to="tada">
+                      <h1> <a href="#"><img src="img/logo1.png" alt=""/></a> </h1>
+                    
+                    </div>
+                <!--logo--> 
+              </div>
+                  <div class="col-md-6  col-xs-12">
+                <div class="row">
+                      <div class="search-wrap home" >
+                    <ul >
+                          <li>
+                        <select id="dropdown-1" name="state[]" class="demo-default" placeholder="Browse Categories" >
+                              <option value="">Browse Categories</option>
+                              <option value="Restaurant">Restaurant</option>
+                              <option value="Nightlife">Nightlife</option>
+                              <option value="Shopping">Shopping</option>
+                              <option value="Health">Health</option>
+                              <option value="Automotive">Automotive</option>
+                              <option value="Beauty">Beauty</option>
+                              <option value="Home service">Home service</option>
+                            </select>
+                      </li>
+                          <li>
+                        <select id="dropdown-2" name="state[]" class="demo-default" placeholder="Browse Locations">
+                              <option value="">Browse Locations</option>
+                              <option value="kathmandu">Kathmandu,Nepal</option>
+                              <option value="pokhara">Pokhara,Nepal</option>
+                              <option value="california">California,USA</option>
+                              <option value="Kansas">kansas,USA</option>
+                              <option value="Manchester united">Manchester united,UK</option>
+                              <option value="Berlin">Berlin,Germany</option>
+                              <option value="sydney">Sydney,australia</option>
+                              <option value="madrid">madrid,spain</option>
+                              <option value="paris">paris,france</option>
+                            </select>
+                      </li>
+                          <li>
+                        <a href="search-result.html"><input type="submit" value="Search"></a>
+                      </li>
+                        </ul>
+                    <div class="adv-search"> <a class="pull-right" href="#">Advanced Search</a> </div>
+                  </div>
+                    </div>
+                
+                <!--search wrap--> 
+              </div>
+                  <!--col-md-8-->
+                  <div class="col-md-3  right-padding0 col-xs-12"  data-animate-to="fadeInRighttBig">
+                <div class="add-block home">
+                      <div class="add-image"> <img src="img/bg-contacts.png" alt=""> </div>
+                      <div class="add-content">
+                    <h2><a href="add-business.html">Add Your Business</a></h2>
+                    <p>and get your share of new potential customers everyday..</p>
+                  </div>
+                    </div>
+              </div>
+                </div>
+            <!--row--> 
+          </div>
+              <!--container--> 
+            </div>
+        <!--head wrap--> 
+      </div>
+        </div>
+  </div>
+    </section>
+<!----slider section---->
+<section>
+      <div class="content-wrap">
+    <div class="container clearfix">
+          <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInLeftBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/restaurant-img.png" alt=""/></a> </div>
+                  <div class="block-icon-one"> </div>
+                  <div class="block-title"> <a href="#">RESTAURANT</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInLeftBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/night.png" alt=""/></a> </div>
+                  <div class="block-icon-two"> </div>
+                  <div class="block-title"> <a href="#">NIGHTLIFE</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInLeftBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/shopping.png" alt=""/></a> </div>
+                  <div class="block-icon-three"> </div>
+                  <div class="block-title"> <a href="#">SHOPPING</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInLeftBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/automotive.png" alt=""/></a> </div>
+                  <div class="block-icon-four"> </div>
+                  <div class="block-title"> <a href="#">AUTOMOTIVE</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInRightBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/beauty.png" alt=""/></a> </div>
+                  <div class="block-icon-five"> </div>
+                  <div class="block-title"> <a href="#">BEAUTY & SPA</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInRightBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/coffe.png" alt=""/></a> </div>
+                  <div class="block-icon-six"> </div>
+                  <div class="block-title"> <a href="#">COFEE & TEA</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInRightBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/health.png" alt=""/></a> </div>
+                  <div class="block-icon-seven"> </div>
+                  <div class="block-title"> <a href="#">HEALTH & MEDICAL</a> </div>
+                </div>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="block-wrap" data-animate-to="fadeInRightBig">
+            <div class="content-block">
+                  <div class="block-image"> <a hre="#"><img src="img/block/blog.png" alt=""/></a> </div>
+                  <div class="block-icon-eight"> </div>
+                  <div class="block-title"> <a href="#">HOME SERVICES</a> </div>
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--Tab Section-->
+<div class="feature-wrap clearfix">
+      <div class="container ">
+    <div class="row">
+          <ul class="nav nav-tabs">
+        <li class="active"><a href="#first" data-toggle="tab">Featured Business</a></li>
+        <li><a href="#second" data-toggle="tab">Business Coupon</a></li>
+        <li><a href="#third" data-toggle="tab">Recent Business</a></li>
+      </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+        <div class="tab-pane active" id="first">
+              <h2>Featured Business</h2>
+              <div class="feature-block-one">
+            <div class="container">
+                  <div class="row">
+                <div class="slider">
+                      <div id="slider2" class="flexslider">
+                    <ul class="slides">
+                          <li>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                      </li>
+                          <li>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                      </li>
+                          <li>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                      </li>
+                          <li>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                              <div class="featured-box">
+                            <div class="featured-image"><img src="img/img1.jpg" alt=""> </div>
+                            <div class="title">
+                                  <h2>Lorum Ipsum</h2>
+                                </div>
+                            <div class="review-box">
+                                  <div class="sub-ratting" style="width:60%;"></div>
+                                </div>
+                            <div class="location">
+                                  <ul>
+                                <li>2141 street no.456</li>
+                                <li>Kathmandu,Nepal</li>
+                                <li>9841-xxx-xxx</li>
+                              </ul>
+                                </div>
+                            <div class="share-box clearfix">
+                                  <ul>
+                                <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                              </ul>
+                                </div>
+                          </div>
+                            </div>
+                      </li>
+                        </ul>
+                  </div>
+                      <!--#slider2--> 
+                    </div>
+                <!--slider--> 
+                
+              </div>
+                </div>
+          </div>
+            </div>
+        <!--first-->
+        <div class="tab-pane" id="second">
+              <h2>Business Coupons</h2>
+              <div class="feature-block-two">
+            <div class="container">
+              
+                     
+                      <div class="row">
+                   
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div>
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div>
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div>
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div>
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div>
+                               <div class="col-md-6 col-sm-6 col-xs-12">
+                                      <div class="coupon-wrap">
+                                    <div class="row">
+                                          <div class="col-md-4  col-xs-12">
+                                        <div class="cupons-img"> <img src="img/member3.jpg" alt="member"> </div>
+                                      </div>
+                                          <div class="col-md-8 col-xs-12">
+                                        <div class="bussiness-details">
+                                              <h3>Big Mart Pvt. Ltd.</h3>
+                                              <p>50% Off Today Our Bussiness</p>
+                                              <button type="button" class="btn btn-copon">Show Coupon</button>
+                                              <article>
+                                            <p id="summary"> The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience. </p>
+                                          </article>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                                   </div> 
+                   
+                  		</div>
+                  
+       
+               		
+                </div>
+          </div>
+            </div>
+        <!--second-->
+        <div class="tab-pane" id="third">
+              <h2>Recently Added Business</h2>
+              <div class="feature-block-three">
+           			 <div class="row">
+                      <div class="third-wrap">
+                        
+                            <div class="col-md-4">
+                                <div class="recent-image">
+                                    <img src="img/bmw.jpg" alt="">
+                                </div>
+                                <div class="share-box clearfix">
+                                          <ul>
+                                        <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                        <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                                      </ul>
+                                        </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="recent-content">
+                                    <h2>LOreum Ipsum</h2>
+                                    <div class="recent-description">
+                                        <p>Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<a href="#"> Tempor invidunt.</a></p>
+                                    </div>
+                                    <div class="location">
+                                          <ul>
+                                        <li>2141 street no.456</li>
+                                        <li>Kathmandu,Nepal</li>
+                                        <li>9841-xxx-xxx</li>
+                                      </ul>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                   
+                          
+                          </div>
+                      <div class="third-wrap">
+                        
+                            <div class="col-md-4">
+                                <div class="recent-image">
+                                    <img src="img/bmw.jpg" alt="">
+                                </div>
+                                <div class="share-box clearfix">
+                                          <ul>
+                                        <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                        <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                                      </ul>
+                                        </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="recent-content">
+                                    <h2>LOreum Ipsum</h2>
+                                    <div class="recent-description">
+                                        <p>Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<a href="#"> Tempor invidunt.</a></p>
+                                    </div>
+                                    <div class="location">
+                                          <ul>
+                                        <li>2141 street no.456</li>
+                                        <li>Kathmandu,Nepal</li>
+                                        <li>9841-xxx-xxx</li>
+                                      </ul>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                   
+                          
+                          </div>
+                      <div class="third-wrap">
+                        
+                            <div class="col-md-4">
+                                <div class="recent-image">
+                                    <img src="img/bmw.jpg" alt="">
+                                </div>
+                                <div class="share-box clearfix">
+                                          <ul>
+                                        <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                        <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                                      </ul>
+                                        </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="recent-content">
+                                    <h2>LOreum Ipsum</h2>
+                                    <div class="recent-description">
+                                        <p>Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<a href="#"> Tempor invidunt.</a></p>
+                                    </div>
+                                    <div class="location">
+                                          <ul>
+                                        <li>2141 street no.456</li>
+                                        <li>Kathmandu,Nepal</li>
+                                        <li>9841-xxx-xxx</li>
+                                      </ul>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                   
+                          
+                          </div>
+                      <div class="third-wrap">
+                        
+                            <div class="col-md-4">
+                                <div class="recent-image">
+                                   <img src="img/bmw.jpg" alt="">
+                                </div>
+                                <div class="share-box clearfix">
+                                          <ul>
+                                        <li class="pull-left"><a href="#">Share<i class="fa fa-share-square"></i></a></li>
+                                        <li class="pull-right"><a href="#">Direction<i class="fa fa-location-arrow"></i></a> </li>
+                                      </ul>
+                                        </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="recent-content">
+                                    <h2>LOreum Ipsum</h2>
+                                    <div class="recent-description">
+                                        <p>Lorem ipsum dolor sit amet, consetetur elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.<a href="#"> Tempor invidunt.</a></p>
+                                    </div>
+                                    <div class="location">
+                                          <ul>
+                                        <li>2141 street no.456</li>
+                                        <li>Kathmandu,Nepal</li>
+                                        <li>9841-xxx-xxx</li>
+                                      </ul>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                   
+                          
+                          </div>
+                	</div>
+          		</div>
+              
+            </div>
+      </div>
+        </div>
+  </div>
+    </div>
+</section>
+<!--Tab Section--> 
+<!--Review section-->
+ 
+<section>
+      <div class="testimonial clearfix" data-animate-to="fadeInLeftBig">
+    <div class="container">
+          <div class="row">
+        <h2 class="main">BUSINESS REVIEWS</h2>
+        <div class="slider">
+              <div id="slider" class="flexslider">
+            <ul class="slides">
+                  <li>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="testimonial-image"> <img src="img/img1.jpg" alt=""/> </div>
+                    </div>
+                <div class="col-md-8 col-sm-6  col-xs-12">
+                      <div class="title-review">
+                    <h2><a href="#">Kobe Braynt</a> reviewed <a href="#">Addidas</a></h2>
+                  </div>
+                      <div class="review-box">
+                    <div class="sub-ratting" style="width:60%;"></div>
+                  </div>
+                      <div class="review-content">
+                    <p>The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience.</p>
+                    <blockquote>Loreum ipsum</blockquote>
+                  </div>
+                    </div>
+              </li>
+                  <li>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="testimonial-image"> <img src="img/img1.jpg" alt=""/> </div>
+                    </div>
+                <div class="col-md-8 col-sm-6  col-xs-12">
+                      <div class="title-review">
+                    <h2><a href="#">Kobe Braynt</a> reviewed <a href="#">Addidas</a></h2>
+                  </div>
+                      <div class="review-box">
+                    <div class="sub-ratting" style="width:60%;"></div>
+                  </div>
+                      <div class="review-content">
+                    <p>The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience.</p>
+                    <blockquote>Loreum ipsum</blockquote>
+                  </div>
+                    </div>
+              </li>
+                  <li>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                      <div class="testimonial-image"> <img src="img/img1.jpg" alt=""/> </div>
+                    </div>
+                <div class="col-md-8 col-sm-6  col-xs-12">
+                      <div class="title-review">
+                    <h2><a href="#">Kobe Braynt</a> reviewed <a href="#">Addidas</a></h2>
+                  </div>
+                      <div class="review-box">
+                    <div class="sub-ratting" style="width:60%;"></div>
+                  </div>
+                      <div class="review-content">
+                    <p>The company was founded in 2008 to offer more innovative resource solutions rather than a standard introduction. Our team work together combining their highly complementary backgrounds spanning from 8+ years technical including Apple & Microsoft, over 25 years enterprise sales, consulting and recruitment experience.</p>
+                    <blockquote>Loreum ipsum</blockquote>
+                  </div>
+                    </div>
+              </li>
+              
+                </ul>
+                  
+          </div>
+        
+              <!--#slider--> 
+            </div>
+        <!--.slider--> 
+      </div>
+        </div>
+  
+  </div>
+
+    </section>
+<section>
+      <div class="contact" id="contact">
+    <div class="container clearfix">
+          <div class="row">
+        <div class="col-md-7 col-sm-7">
+              <div class="form-box">
+            <h2>Get in touch...</h2>
+            <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+                  <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+                  <div class="form-group">
+                <textarea class="message" placeholder="Your Message"></textarea>
+              </div>
+                  <button type="submit" class="btn btn-primary">Send Email</button>
+                </form>
+          </div>
+            </div>
+        <div class="col-md-5 col-sm-5 border">
+              <div class="contact-content">
+            <ul>
+                  <li ><span><i class="fa fa-home"></i></span>
+                <p>Grass Hop IT <br>
+                      555 Kathmandu Street, Suite 300 <br>
+                      Kathmandu, Nepal </p>
+              </li>
+                  <li ><span><i class="fa fa-phone"></i></span>
+                <p>+1 415 296 0220 </p>
+              </li>
+                  <li><span><i class="fa fa-envelope"></i></span>
+                <p><a href="#">info@grasshopit.com</a></p>
+              </li>
+                  <li ><span><i class="fa fa-lock"></i></span>
+                <p> We will never share your <br>
+                      personal information. See our<br>
+                      complete privacy policy. </p>
+              </li>
+                </ul>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </section>
+<footer>
+      <div class="footer">
+    <div class="container clearfix">
+          <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="footer-one">
+            <h2>Featured business</h2>
+               <ul>
+                  <li>
+               
+                
+                      Lorem ipsum 
+                    
+              </li>
+                  <li>
+                
+              
+                      Lorem ipsum 
+                    
+              </li>
+                  <li>
+                
+                    Lorem ipsum
+                  
+              </li>
+                         <li>
+               
+                
+                      Lorem ipsum 
+                    
+              </li>
+                  <li>
+                
+              
+                      Lorem ipsum 
+                    
+              </li>
+                  <li>
+                
+                    Lorem ipsum
+                  
+              </li>
+                </ul>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="footer-two">
+                <h2>Category List</h2>
+                <p><a href="#">Restaurant</a></br>
+                <a href="#">Night Life</a></br>
+                <a href="#">Shopping</a></br>
+                <a href="#">Automotive</a></br>
+                <a href="#">Beauty & Spa</a></br>
+                <a href="#">Coffee & Tea</a></br>
+                <a href="#">Health & Medical</a></br>
+                <a href="#">Home Services</a>
+                </p>
+                </div>
+
+            </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="footer-three">
+            <h2>Latest News</h2>
+            <ul>
+                  <li>
+                <div class="news-thumb"><img src="img/bg-contacts.png" alt=""></div>
+                <div class="news-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+              </li>
+                  <li>
+                <div class="news-thumb"><img src="img/bg-contacts.png" alt=""></div>
+                <div class="news-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+              </li>
+                  <li>
+                <div class="news-thumb"><img src="img/bg-contacts.png" alt=""></div>
+                <div class="news-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+              </li>
+                </ul>
+          </div>
+            </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="footer-four">
+            <h2>Contact Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul>
+                  <li><span><i class="fa fa-envelope-o"></i></span>info@grasshopit.com</li>
+                  <li><span><i class="fa fa-phone"></i></span>+1 415 296 0220 </li>
+                  <li><span><i class="fa fa-home"></i></span>555 Kathmandu Street, Suite 300</li>
+                </ul>
+          </div>
+            </div>
+      </div>
+          <div class="social-icons">
+        <ul>
+              <li id="facebook"><a href="#"><img src="img/facebook.png" alt="facebook" title="facebook"></a></li>
+              <li id="twitter"><a href="#"><img src="img/twitter.png" alt="twitter" title="twitter"></a></li>
+              <li id="googleplus"><a href="#"><img src="img/social-googleplus.png" alt="google_plus"></a></li>
+            </ul>
+      </div>
+        </div>
+  </div>
+      <!--footer-->
+      <div class="copyright">
+    <div class="container">
+          <div class="row">
+        <p>Copyright 2014 company name| All Rights Reserved</p>
+      </div>
+        </div>
+  </div>
+      <a href="#" class="go-top">Go To Top&nbsp;<i class="fa fa-arrow-up"></i> </a></footer>
+<script>
+				var eventHandler = function(name) {
+					return function() {
+						console.log(name, arguments);
+						
+					};
+				};
+				var $select = $('#dropdown-1').selectize({
+					create          : true,
+					onChange        : eventHandler('onChange'),
+					onItemAdd       : eventHandler('onItemAdd'),
+					onItemRemove    : eventHandler('onItemRemove'),
+					onOptionAdd     : eventHandler('onOptionAdd'),
+					onOptionRemove  : eventHandler('onOptionRemove'),
+					onDropdownOpen  : eventHandler('onDropdownOpen'),
+					onDropdownClose : eventHandler('onDropdownClose'),
+					onInitialize    : eventHandler('onInitialize'),
+				});
+				var eventHandler = function(name) {
+					return function() {
+						console.log(name, arguments);
+						
+					};
+				};
+				var $select = $('#dropdown-2').selectize({
+					create          : true,
+					onChange        : eventHandler('onChange'),
+					onItemAdd       : eventHandler('onItemAdd'),
+					onItemRemove    : eventHandler('onItemRemove'),
+					onOptionAdd     : eventHandler('onOptionAdd'),
+					onOptionRemove  : eventHandler('onOptionRemove'),
+					onDropdownOpen  : eventHandler('onDropdownOpen'),
+					onDropdownClose : eventHandler('onDropdownClose'),
+					onInitialize    : eventHandler('onInitialize'),
+				});
+				</script>
+                 <script>
+		(function($){
+			$(window).load(function(){
+				
+				/* Page Scroll to id fn call */
+				$("#navigation-menu a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+					highlightSelector:"#navigation-menu a"
+				});
+				
+				/* demo functions */
+				$("a[rel='next']").click(function(e){
+					e.preventDefault();
+					var to=$(this).parent().parent("section").next().attr("id");
+					$.mPageScroll2id("scrollTo",to);
+				});
+				
+			});
+		})(jQuery);
+	$('#myModal').modal(options);
+    </script>
+</body>
+</html>
