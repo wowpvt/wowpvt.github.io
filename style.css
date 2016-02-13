@@ -123,12 +123,13 @@ a:hover, a:focus {
 }
 /*Header Css Start*/
  header {
-	position: relative;
-	padding: 20px 0px;
+	/*position: relative;
+	padding: 20px 0px;*/
+	padding:10px 0;
 }
 header h1.logo {
-	position: absolute;
-	z-index: 9;
+	/*position: absolute;
+	z-index: 9;*/
 }
 /*Form Css Start*/
  .form-wrap, .login-wrap {
