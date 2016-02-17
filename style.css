@@ -51,6 +51,9 @@ width:100px;
 height:auto;
 
 }
+.imgprof img{
+width:320px;
+}
 .category-box {
 	display: inline-block;
 	cursor: pointer;
