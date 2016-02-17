@@ -46,6 +46,11 @@ a:hover, a:focus {
 	clear: both;
 }
 /*Css3 Animation*/
+.contactimg{
+width:100px;
+height:auto;
+
+}
 .category-box {
 	display: inline-block;
 	cursor: pointer;
